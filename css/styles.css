@@ -1,0 +1,157 @@
+.div-header{
+    background-color: yellow;
+    color: rgb(88, 3, 3);
+    margin: 20px;
+    padding: 5px;
+    width: 90%;
+    height: 50px;
+}
+
+.div-main{
+    background-color: rgb(238, 188, 188);
+    color: white;
+    width: 90%;
+    height:480px;
+    margin: 20px;
+    background-image: url("/images/irish-pub-music.jpg");
+    background-repeat: no-repeat;
+}
+
+.div-footer{
+    background-color: rgb(0, 255, 76);
+    color: rgb(25, 2, 80);
+    margin: 20px;
+    height: 30px;
+    width: 90%;
+}
+
+.navegador{
+    margin: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+ul{
+  display: flex;
+  margin: auto;
+  width: auto;
+  justify-content: space-between;
+  padding: 5px 20px;
+  list-style-type: none;
+}
+
+.maquina{
+    position: relative;
+    margin: 20px 20px 0px 436px; /*Arriba, derecha, abajo, izquierda*/
+    height: 460px;
+    z-index: 2;
+}
+
+.texto-musica {
+        position: absolute;
+        top: 403px;
+        left: 334px;
+        text-align: center;
+        font-size: 15px;
+        padding: 3px;
+        background-color:burlywood;
+        color:rgb(63, 41, 6);
+        z-index: +1;
+        opacity: 0.8;
+ }
+
+ .instrucciones {
+    position: absolute;
+    top: 490px;
+    left: 248px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    background-color:rgb(95, 53, 24);
+    color:rgb(255, 255, 255);
+    z-index: +1;
+    opacity: 0.8;
+}
+
+.premio1{
+    position: absolute;
+    height: 25px;
+    top: 349px;
+    left: 536px;
+    z-index: +3;
+}
+
+.premio2{
+    position: absolute;
+    height: 25px;
+    top: 349px;
+    left: 625px;
+    z-index: +3;
+}
+
+.premio3{
+    position: absolute;
+    height: 37px;
+    top: 346px;
+    left: 714px;
+    z-index: +3;
+}
+
+.flash{
+    position: absolute;
+    height: 170px;
+    top: 170px;
+    left: 789px;
+    z-index: 1; 
+}
+
+.logo{
+    height: 33px;
+    margin: 6px;
+}
+
+.circulos{
+    position: absolute;
+    height: 100px;
+    top: 230px;
+    left: 852px;
+    z-index: 2; 
+}
+
+.fa-instagram{
+    color: rgb(116, 64, 4);
+    padding-right: 10px;
+    margin-top: 6px;
+    opacity: 0.8;
+}
+
+.fa-facebook{
+    color: rgb(116, 64, 4);
+    padding-right: 10px;
+    margin-top: 6px;
+    opacity: 0.8;
+}
+
+.fa-youtube{
+    color: rgb(116, 64, 4);
+    margin-top: 6px;
+    opacity: 0.8;
+}
+
+.pulsa {
+    position: absolute;
+    top: 265px;
+    left: 875px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Uchen', serif;
+    line-height: 1.4;
+    padding: 3px;
+    color:rgb(255, 255, 255);
+    z-index: +2;
+    opacity: 0.8;
+}
